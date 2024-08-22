@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-  <!-- Font awessome cdn -->
-
+  <!-- Font-awessome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Daisy Ui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
   <!-- Tailwind cdn -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -26,15 +32,85 @@
 </head>
 
 <body>
-  <h1>This is my third assignment Solution</h1>
-  <nav>
+  <header class="">
+    <!-- Navbar start -->
 
-  </nav>
-  <header>
-
+    <!-- banner section  -->
+    <div class="px-12 py-6 justify-center">
+      <div>
+        <img class="mx-auto" src="./assets/banner.png" alt="">
+      </div>
+      <div class="text-center px-20">
+        <h1 class="text-5xl font-bold">A barn house of this design has a <br> striking appearance</h1>
+        <p class="font-medium">The barn house captivates with its blend of rustic charm and modern sophistication,
+          featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+      </div>
+    </div>
+    <div>
+      <button class="btn btn-accent flex items-center">Accent</button>
+    </div>
   </header>
   <main>
+    <!-- main section start -->
+    <img src="./assets/Vector.png" alt="">
+    <div class="flex  p-4 mx-4 my-20">
 
+      <div class="flex-1 px-32">
+        <p>About Us</p>
+        <h1 class="font-bold text-5xl">We design thoughtful, liveable spaces</h1>
+        <p>The barn house captivates with its blend of rustic charm and
+          modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        <div class="">
+          <div class="bg-white-200 shadow-md">
+            <img src="./assets/commercial.png" alt="">
+            <h4 class="font-semibold">Commercial</h4>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="bg-white-200 shadow-md">
+            <img src="./assets/residential.png" alt="">
+            <h4 class="font-semibold">Residential</h4>
+            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image -->
+      <div class="flex-1   ">
+        <img src="./assets/Rectangle.png" alt="">
+      </div>
+    </div>
+    <!-- Our Works Proces section -->
+    <div>
+      <div class="text-center">
+        <p>How we works</p>
+        <h2 class="font-bold text-3xl ">Our Works Proces</h2>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood,
+          sleek metal accents.</p>
+      </div>
+      <div class="grid py-5 px-10  lg:grid-cols-4 grid-cols-1">
+        <div class="p-6 mx-10 my-12 rounded-lg bg-red-200">
+          <img src="./assets/concept.png" alt="">
+          <h4 class="font-bold">Concept</h4>
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+        <div class="p-6  mx-10 my-12 rounded-lg bg-yellow-200">
+          <img src="./assets/flow-chart.png" alt="">
+          <h4 class="font-bold">Design Proces </h4>
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+        <div class="p-6  mx-10 my-12 rounded-lg bg-teal-300">
+          <img src="./assets/vision.png" alt="">
+          <h4 class="font-bold">Supervision</h4>
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+        <div class="p-6  mx-10 my-12 rounded-lg bg-blue-200">
+          <img src="./assets/budget-planning.png" alt="">
+          <h4 class="font-bold">Budget Planning</h4>
+          <p>The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+      </div>
+    </div>
+<!-- Form Section -->
+ 
   </main>
   <footer>
 
